@@ -1,4 +1,0 @@
-sumalpong-pactol
-================
-
-sumalpong-pactol

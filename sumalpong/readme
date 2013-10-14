@@ -1,0 +1,22 @@
+#os155 project
+
+#updating ssh keys to servers automatically
+
+#How to use:
+
+#assume that you already have generated a pair of RSA key pair and saved 
+#to filename mykey-old.
+
+#open the serverlist file and replace the server addresses to your server address.
+
+#generate a new key and save it to filename mykey-new
+
+#run the rotaion.sh with arguments, if you want to update new keys to server then the syntax will be:
+
+./rotaion.sh update
+
+#if you want to deleteyour old keys after updating then the syntax is:
+
+./rotation delete
+
+#finished
